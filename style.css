@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/21px "Times New Roman", Times, serif;
+    text-align: center;
+    color: #08665E;
+    background: White url(images/bg.gif) repeat-x top;
+}
+
+h1 {
+    padding: 0 0 0 25px;
+    height: 108px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 64px;
+    color: #E0A66A;
+}
+
+h1 a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #E0A66A;
+}
+
+h1 a:hover {
+    font-weight: normal;
+    text-decoration: none;
+    color: #E0A66A;
+}
+
+h1 span {
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #DEC5B5;
+}
+
+h2 {
+    padding: 0 0 0 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #8C3307;
+    border-bottom: 1px solid #E1CCB6;
+}
+
+p {
+    padding: 8px 0;
+    text-align: justify;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #DDDD00;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFBA63;
+}
+
+img {
+    padding: 5px;
+    background: #E5E5E5;
+    border: 1px solid #E1CCB6;
+}
+
+#main {
+    position: relative;
+    margin: 0 auto;
+    width: 970px;
+    text-align: left;
+    background: url(images/main.gif) repeat-y;
+}
+
+#corner1 {
+    position: absolute;
+    top: 152px;
+    left: 0;
+    width: 65px;
+    height: 65px;
+    background: url(images/corner1.jpg) no-repeat;
+}
+
+#corner2 {
+    position: absolute;
+    top: 152px;
+    left: 905px;
+    width: 65px;
+    height: 65px;
+    background: url(images/corner2.jpg) no-repeat;
+}
+
+#header {
+    padding: 0 65px;
+    background: #652D01 url(images/bg.gif) repeat-x top;
+}
+
+#header2 {
+    height: 152px;
+    background: url(images/header.jpg) no-repeat;
+}
+
+#menu {
+    padding-left: 20px;
+    height: 42px;
+}
+
+#menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    margin: 0 2px 0 0;
+    padding: 0;
+    width: 140px;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #DEC5B5;
+    background: #9B4816 url(images/menu.jpg) no-repeat;
+}
+
+#menu ul li a.active, #menu ul li a:hover {
+    text-decoration: none;
+    color: White;
+    background: #FF8E1D url(images/menu_over.jpg) no-repeat;
+}
+
+#search {
+    position: absolute;
+    top: 108px;
+    right: 85px;
+    width: 214px;
+    height: 30px;
+}
+
+#search form {
+}
+
+#search input.text {
+    float: left;
+    display: block;
+    padding: 3px;
+    width: 140px;
+    font-size: 13px;
+    color: #08665E;
+    background: #E5E5E5;
+    border: 1px solid #F1F1F1;
+    border-top: 1px solid #BEBEBE;
+    border-left: 1px solid #BEBEBE;
+}
+
+#search input.submit {
+    float: right;
+    display: block;
+    padding: 4px 0;
+    width: 60px;
+    font-weight: bold;
+    font-size: 11px;
+    color: White;
+    background: #FF7E24 url(images/search.gif) no-repeat;
+    border: none;
+}
+
+#middle {
+    padding: 18px 85px 0 85px;
+}
+
+#left {
+    float: left;
+    width: 546px;
+}
+
+#left .box {
+    padding-bottom: 20px;
+}
+
+#left ul {
+    padding: 8px 0 8px 35px;
+}
+
+#left ul li {
+    padding: 0;
+    text-align: justify;
+}
+
+#left img {
+    float: left;
+    display: block;
+    margin: 10px 20px 5px 0;
+}
+
+#right {
+    float: right;
+    padding: 0 0 25px 0;
+    width: 234px;
+}
+
+#right h2 {
+    padding-top: 25px;
+    color: #08665E;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#right ul {
+    list-style: none;
+}
+
+#right ul li {
+    padding: 0 0 0 15px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#right ul li a {
+    padding: 0;
+    font-weight: normal;
+    text-decoration: underline;
+    line-height: 24px;
+    color: #08665E;
+}
+
+#right ul li a:hover {
+    text-decoration: none;
+    color: #08665E;
+}
+
+#footer {
+    clear: both;
+    padding: 0 85px;
+    height: 40px;
+    background: url(images/footer.jpg) repeat-x top;
+}
+
+#footer p {
+    border-top: 1px solid #E1CCB6;
+    font-size: 12px;
+    line-height: 20px;
+}
